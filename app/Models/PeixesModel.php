@@ -14,4 +14,12 @@ class PeixesModel extends Model
     public function getPeixes($id){
         return $this->asArray()->where(['id'=>$id])->first();
     }
+    public function getPeixe($limit){
+    
+        $query = $this->db->query("SELECT * FROM peixes limit ".$limit);
+
+        $result = $query->getResultArray();
+
+        return $result;
+    }
 }
