@@ -258,3 +258,36 @@ in SYSTEMPATH\BaseModel.php on line 1139.
  8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 07:36:00 --> Declaration of App\Models\PeixesModel::save($insert) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:36:06 --> Declaration of App\Models\PeixesModel::save($insert) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:36:07 --> Declaration of App\Models\PeixesModel::save($insert) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:36:36 --> Declaration of App\Models\PeixesModel::save($insert) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:36:42 --> Declaration of App\Models\PeixesModel::save($insert) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:37:32 --> Declaration of App\Models\PeixesModel::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:37:35 --> Declaration of App\Models\PeixesModel::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\PeixesModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 07:38:09 --> Allowed fields must be specified for model: App\Models\PeixesModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PeixesModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Peixes.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Peixes->novoPeixe('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peixes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
